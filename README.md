@@ -74,7 +74,7 @@ Start by making an empty scene object called 'Chaining Objects', and add the fol
      - Target: `Sphere1 : Physics Body`
      - Constraint Type: `Point`
 
-### Step 4 — Set up Sphere3 (bottom link)
+### Step 4 | Set up Sphere3 (bottom link)
 1. Click `Add Component` → `Physics Body`
    - Check `Dynamic`
    - Set Damping to `0.9`
