@@ -64,22 +64,22 @@ Start by making an empty scene object called 'Chaining Objects', and add the fol
    - Script should be there from the previous part
 
 ### Step 3 | Set up Sphere2 (middle link)
-1. Click `Add Component` → `Physics Body`
+- Click `Add Component` → `Physics Body`
    - Check `Dynamic`
    - Set Damping to `0.9`
    - Set Angular Damping to `0.9`
-2. On the Physics Body component click `Add Constraint Object`
+- On the Physics Body component click `Add Constraint Object`
    - A Constraint child object will appear in the hierarchy under Sphere2
    - Select it and in the Inspector set:
      - Target: `Sphere1 : Physics Body`
      - Constraint Type: `Point`
 
 ### Step 4 | Set up Sphere3 (bottom link)
-1. Click `Add Component` → `Physics Body`
+- Click `Add Component` → `Physics Body`
    - Check `Dynamic`
    - Set Damping to `0.9`
    - Set Angular Damping to `0.9`
-2. On the Physics Body component click `Add Constraint Object`
+- On the Physics Body component click `Add Constraint Object`
    - Select the Constraint child and in the Inspector set:
      - Target: `Sphere2 : Physics Body`
      - Constraint Type: `Point`
